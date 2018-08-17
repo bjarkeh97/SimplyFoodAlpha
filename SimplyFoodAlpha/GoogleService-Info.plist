@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>6770186518-4k97ndf3hek9u47h8qr06bubfb5lf8io.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.6770186518-4k97ndf3hek9u47h8qr06bubfb5lf8io</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAQ-J4X568XeXXS98s7QHFCh-DzdFbVq_I</string>
+	<key>GCM_SENDER_ID</key>
+	<string>6770186518</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.BDB.SimplyFoodAlpha</string>
+	<key>PROJECT_ID</key>
+	<string>simplyfood-e3fcc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>simplyfood-e3fcc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:6770186518:ios:725037937956708a</string>
+	<key>DATABASE_URL</key>
+	<string>https://simplyfood-e3fcc.firebaseio.com</string>
+</dict>
+</plist>

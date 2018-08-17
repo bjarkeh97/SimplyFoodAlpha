@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38D5147E656A2348FEFEE23F /* Pods_SimplyFoodAlpha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7FAD045A9D6A0BC5586F3D /* Pods_SimplyFoodAlpha.framework */; };
+		E201A5B72126ED3F00F5FBA5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201A5B62126ED3F00F5FBA5 /* LoginView.swift */; };
+		E201A5B92126ED6400F5FBA5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201A5B82126ED6400F5FBA5 /* RegisterViewController.swift */; };
 		E2BFAD112126E01B007B12DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BFAD102126E01B007B12DF /* AppDelegate.swift */; };
 		E2BFAD132126E01B007B12DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BFAD122126E01B007B12DF /* ViewController.swift */; };
 		E2BFAD162126E01B007B12DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2BFAD142126E01B007B12DF /* Main.storyboard */; };
 		E2BFAD192126E01B007B12DF /* SimplyFoodAlpha.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2BFAD172126E01B007B12DF /* SimplyFoodAlpha.xcdatamodeld */; };
 		E2BFAD1B2126E01C007B12DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BFAD1A2126E01C007B12DF /* Assets.xcassets */; };
 		E2BFAD1E2126E01C007B12DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2BFAD1C2126E01C007B12DF /* LaunchScreen.storyboard */; };
+		E2BFAD292126E87F007B12DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2BFAD282126E87F007B12DF /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19D6621DD61B84004C9E9DBB /* Pods-SimplyFoodAlpha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplyFoodAlpha.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimplyFoodAlpha/Pods-SimplyFoodAlpha.debug.xcconfig"; sourceTree = "<group>"; };
+		38F11E1786BE59607E26037F /* Pods-SimplyFoodAlpha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimplyFoodAlpha.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimplyFoodAlpha/Pods-SimplyFoodAlpha.release.xcconfig"; sourceTree = "<group>"; };
+		5D7FAD045A9D6A0BC5586F3D /* Pods_SimplyFoodAlpha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplyFoodAlpha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E201A5B62126ED3F00F5FBA5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E201A5B82126ED6400F5FBA5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		E2BFAD0D2126E01B007B12DF /* SimplyFoodAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyFoodAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BFAD102126E01B007B12DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2BFAD122126E01B007B12DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +33,7 @@
 		E2BFAD1A2126E01C007B12DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2BFAD1D2126E01C007B12DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2BFAD1F2126E01C007B12DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2BFAD282126E87F007B12DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D5147E656A2348FEFEE23F /* Pods_SimplyFoodAlpha.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5624BC80FB1DBDF97E760697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D7FAD045A9D6A0BC5586F3D /* Pods_SimplyFoodAlpha.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E2BFAD042126E01B007B12DF = {
 			isa = PBXGroup;
 			children = (
 				E2BFAD0F2126E01B007B12DF /* SimplyFoodAlpha */,
 				E2BFAD0E2126E01B007B12DF /* Products */,
+				FAA24EEC9632CD10088AB11E /* Pods */,
+				5624BC80FB1DBDF97E760697 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +77,51 @@
 		E2BFAD0F2126E01B007B12DF /* SimplyFoodAlpha */ = {
 			isa = PBXGroup;
 			children = (
-				E2BFAD102126E01B007B12DF /* AppDelegate.swift */,
-				E2BFAD122126E01B007B12DF /* ViewController.swift */,
-				E2BFAD142126E01B007B12DF /* Main.storyboard */,
-				E2BFAD1A2126E01C007B12DF /* Assets.xcassets */,
+				E2BFAD272126E81D007B12DF /* Controller */,
+				E2BFAD262126E818007B12DF /* Model */,
+				E2BFAD252126E80F007B12DF /* View */,
 				E2BFAD1C2126E01C007B12DF /* LaunchScreen.storyboard */,
+				E2BFAD1A2126E01C007B12DF /* Assets.xcassets */,
 				E2BFAD1F2126E01C007B12DF /* Info.plist */,
+				E2BFAD282126E87F007B12DF /* GoogleService-Info.plist */,
 				E2BFAD172126E01B007B12DF /* SimplyFoodAlpha.xcdatamodeld */,
 			);
 			path = SimplyFoodAlpha;
+			sourceTree = "<group>";
+		};
+		E2BFAD252126E80F007B12DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2BFAD142126E01B007B12DF /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E2BFAD262126E818007B12DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2BFAD272126E81D007B12DF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E2BFAD102126E01B007B12DF /* AppDelegate.swift */,
+				E2BFAD122126E01B007B12DF /* ViewController.swift */,
+				E201A5B82126ED6400F5FBA5 /* RegisterViewController.swift */,
+				E201A5B62126ED3F00F5FBA5 /* LoginView.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAA24EEC9632CD10088AB11E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19D6621DD61B84004C9E9DBB /* Pods-SimplyFoodAlpha.debug.xcconfig */,
+				38F11E1786BE59607E26037F /* Pods-SimplyFoodAlpha.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2BFAD222126E01C007B12DF /* Build configuration list for PBXNativeTarget "SimplyFoodAlpha" */;
 			buildPhases = (
+				273C68EBBA4C78BBD371EEB4 /* [CP] Check Pods Manifest.lock */,
 				E2BFAD092126E01B007B12DF /* Sources */,
 				E2BFAD0A2126E01B007B12DF /* Frameworks */,
 				E2BFAD0B2126E01B007B12DF /* Resources */,
+				E94A6B97616268CF7C7B1A6B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2BFAD1E2126E01C007B12DF /* LaunchScreen.storyboard in Resources */,
+				E2BFAD292126E87F007B12DF /* GoogleService-Info.plist in Resources */,
 				E2BFAD1B2126E01C007B12DF /* Assets.xcassets in Resources */,
 				E2BFAD162126E01B007B12DF /* Main.storyboard in Resources */,
 			);
@@ -133,13 +193,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		273C68EBBA4C78BBD371EEB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimplyFoodAlpha-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E94A6B97616268CF7C7B1A6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimplyFoodAlpha/Pods-SimplyFoodAlpha-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimplyFoodAlpha/Pods-SimplyFoodAlpha-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2BFAD092126E01B007B12DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E2BFAD192126E01B007B12DF /* SimplyFoodAlpha.xcdatamodeld in Sources */,
+				E201A5B92126ED6400F5FBA5 /* RegisterViewController.swift in Sources */,
 				E2BFAD132126E01B007B12DF /* ViewController.swift in Sources */,
+				E201A5B72126ED3F00F5FBA5 /* LoginView.swift in Sources */,
 				E2BFAD112126E01B007B12DF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +389,7 @@
 		};
 		E2BFAD232126E01C007B12DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19D6621DD61B84004C9E9DBB /* Pods-SimplyFoodAlpha.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +407,7 @@
 		};
 		E2BFAD242126E01C007B12DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F11E1786BE59607E26037F /* Pods-SimplyFoodAlpha.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
