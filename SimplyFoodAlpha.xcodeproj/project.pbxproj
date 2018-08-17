@@ -10,8 +10,9 @@
 		38D5147E656A2348FEFEE23F /* Pods_SimplyFoodAlpha.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7FAD045A9D6A0BC5586F3D /* Pods_SimplyFoodAlpha.framework */; };
 		E201A5B72126ED3F00F5FBA5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201A5B62126ED3F00F5FBA5 /* LoginView.swift */; };
 		E201A5B92126ED6400F5FBA5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201A5B82126ED6400F5FBA5 /* RegisterViewController.swift */; };
+		E201A5BD2126FFE200F5FBA5 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201A5BC2126FFE200F5FBA5 /* Main.swift */; };
 		E2BFAD112126E01B007B12DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BFAD102126E01B007B12DF /* AppDelegate.swift */; };
-		E2BFAD132126E01B007B12DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BFAD122126E01B007B12DF /* ViewController.swift */; };
+		E2BFAD132126E01B007B12DF /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BFAD122126E01B007B12DF /* WelcomeScreen.swift */; };
 		E2BFAD162126E01B007B12DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2BFAD142126E01B007B12DF /* Main.storyboard */; };
 		E2BFAD192126E01B007B12DF /* SimplyFoodAlpha.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2BFAD172126E01B007B12DF /* SimplyFoodAlpha.xcdatamodeld */; };
 		E2BFAD1B2126E01C007B12DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2BFAD1A2126E01C007B12DF /* Assets.xcassets */; };
@@ -25,9 +26,10 @@
 		5D7FAD045A9D6A0BC5586F3D /* Pods_SimplyFoodAlpha.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimplyFoodAlpha.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E201A5B62126ED3F00F5FBA5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E201A5B82126ED6400F5FBA5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		E201A5BC2126FFE200F5FBA5 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		E2BFAD0D2126E01B007B12DF /* SimplyFoodAlpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyFoodAlpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2BFAD102126E01B007B12DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2BFAD122126E01B007B12DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2BFAD122126E01B007B12DF /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
 		E2BFAD152126E01B007B12DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2BFAD182126E01B007B12DF /* SimplyFoodAlpha.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimplyFoodAlpha.xcdatamodel; sourceTree = "<group>"; };
 		E2BFAD1A2126E01C007B12DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,7 +82,6 @@
 				E2BFAD272126E81D007B12DF /* Controller */,
 				E2BFAD262126E818007B12DF /* Model */,
 				E2BFAD252126E80F007B12DF /* View */,
-				E2BFAD1C2126E01C007B12DF /* LaunchScreen.storyboard */,
 				E2BFAD1A2126E01C007B12DF /* Assets.xcassets */,
 				E2BFAD1F2126E01C007B12DF /* Info.plist */,
 				E2BFAD282126E87F007B12DF /* GoogleService-Info.plist */,
@@ -92,6 +93,7 @@
 		E2BFAD252126E80F007B12DF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E2BFAD1C2126E01C007B12DF /* LaunchScreen.storyboard */,
 				E2BFAD142126E01B007B12DF /* Main.storyboard */,
 			);
 			path = View;
@@ -108,9 +110,10 @@
 			isa = PBXGroup;
 			children = (
 				E2BFAD102126E01B007B12DF /* AppDelegate.swift */,
-				E2BFAD122126E01B007B12DF /* ViewController.swift */,
+				E2BFAD122126E01B007B12DF /* WelcomeScreen.swift */,
 				E201A5B82126ED6400F5FBA5 /* RegisterViewController.swift */,
 				E201A5B62126ED3F00F5FBA5 /* LoginView.swift */,
+				E201A5BC2126FFE200F5FBA5 /* Main.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -243,9 +246,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E201A5BD2126FFE200F5FBA5 /* Main.swift in Sources */,
 				E2BFAD192126E01B007B12DF /* SimplyFoodAlpha.xcdatamodeld in Sources */,
 				E201A5B92126ED6400F5FBA5 /* RegisterViewController.swift in Sources */,
-				E2BFAD132126E01B007B12DF /* ViewController.swift in Sources */,
+				E2BFAD132126E01B007B12DF /* WelcomeScreen.swift in Sources */,
 				E201A5B72126ED3F00F5FBA5 /* LoginView.swift in Sources */,
 				E2BFAD112126E01B007B12DF /* AppDelegate.swift in Sources */,
 			);

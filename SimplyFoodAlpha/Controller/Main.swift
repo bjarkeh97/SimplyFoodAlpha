@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  Main.swift
 //  SimplyFoodAlpha
 //
 //  Created by Bjarke Høgdall on 17/08/2018.
@@ -7,19 +7,20 @@
 //
 
 import UIKit
+import Firebase
 
-class ViewController: UIViewController {
+class Main: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
 
 }
-
