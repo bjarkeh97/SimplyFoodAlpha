@@ -59,7 +59,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Welcome" id="GVF-jg-uM7"/>
                     <connections>
-                        <segue destination="pN5-C9-dgk" kind="show" identifier="goToMain" id="1iU-4b-ds9"/>
+                        <segue destination="NBA-xP-MpZ" kind="show" identifier="goToMain" id="HNg-Q6-SCg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EkE-lY-bZB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -104,7 +104,7 @@
                     <connections>
                         <outlet property="passwordTextField" destination="SNw-8R-GPF" id="qhF-F2-Tpf"/>
                         <outlet property="usernameTextField" destination="Fn6-V5-ceY" id="rJ9-Qs-Se4"/>
-                        <segue destination="pN5-C9-dgk" kind="show" identifier="goToMain" id="evh-eK-q4h"/>
+                        <segue destination="NBA-xP-MpZ" kind="show" identifier="goToMain" id="YBH-ab-I4f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q9Q-6B-VJR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -151,7 +151,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fo1-vx-Hhm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2031.2" y="323.38830584707648"/>
+            <point key="canvasLocation" x="2922" y="322"/>
+        </scene>
+        <!--Reveal View Controller-->
+        <scene sceneID="28L-Vj-CoW">
+            <objects>
+                <viewController id="NBA-xP-MpZ" customClass="SWRevealViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SL3-4T-kty">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="UOj-iY-q3g"/>
+                    </view>
+                    <connections>
+                        <segue destination="pN5-C9-dgk" kind="custom" identifier="ToRealMain" customClass="SWRevealViewControllerSeguePushController" id="rkr-Gg-nVA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pvu-jI-qRA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1993" y="322"/>
         </scene>
         <!--Login-->
         <scene sceneID="60E-uy-NKW">
@@ -191,7 +209,7 @@
                     <connections>
                         <outlet property="emailTextField" destination="sIW-jI-xrD" id="yzp-LV-kEV"/>
                         <outlet property="passwordTextField" destination="WgT-ha-Rux" id="mRP-ya-OEx"/>
-                        <segue destination="pN5-C9-dgk" kind="show" identifier="goToMain" id="yVQ-Fl-PCB"/>
+                        <segue destination="NBA-xP-MpZ" kind="show" identifier="goToMain" id="Ss0-zq-VF8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BMZ-cq-VPO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -200,6 +218,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1iU-4b-ds9"/>
+        <segue reference="YBH-ab-I4f"/>
     </inferredMetricsTieBreakers>
 </document>
