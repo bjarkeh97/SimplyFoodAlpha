@@ -1,0 +1,6 @@
+framework module Pods_SimplyFoodAlpha {
+  umbrella header "Pods-SimplyFoodAlpha-umbrella.h"
+
+  export *
+  module * { export * }
+}
